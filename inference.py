@@ -18,10 +18,10 @@ class Inference():
 
     def load_data(self, table_name):
         conn = sqlite3.connect(self.data_path)
-        X_test = pd.read_sql_query("SELECT * FROM {}".format(table_name),
+        X = pd.read_sql_query("SELECT * FROM {}".format(table_name),
                                    conn,
                                    )
-        return X_test
+        return X
 
     def predict(self):
         return self.__model.predict(self.data.iloc[:, 1:].values)
