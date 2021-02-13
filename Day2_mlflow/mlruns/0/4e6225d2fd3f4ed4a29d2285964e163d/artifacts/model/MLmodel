@@ -1,0 +1,15 @@
+artifact_path: model
+flavors:
+  lightgbm:
+    data: model.lgb
+    lgb_version: 3.1.1
+  python_function:
+    data: model.lgb
+    env: conda.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.8.5
+run_id: 4e6225d2fd3f4ed4a29d2285964e163d
+signature:
+  inputs: '[{"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"}]'
+  outputs: '[{"type": "double"}, {"type": "double"}, {"type": "double"}]'
+utc_time_created: '2021-02-11 09:24:01.661376'

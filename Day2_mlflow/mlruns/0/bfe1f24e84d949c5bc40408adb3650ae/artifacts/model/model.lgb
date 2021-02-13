@@ -1,0 +1,5531 @@
+tree
+version=v3
+num_class=3
+num_tree_per_iteration=3
+label_index=0
+max_feature_idx=3
+objective=multiclass num_class:3
+feature_names=Column_0 Column_1 Column_2 Column_3
+feature_infos=[4.2999999999999998:7.7000000000000002] [2:4.4000000000000004] [1:6.7000000000000002] [0.10000000000000001:2.5]
+tree_sizes=332 332 330 327 329 328 329 329 328 329 330 328 329 330 328 329 330 328 326 329 329 328 330 327 314 330 329 315 330 330 330 330 328 331 329 328 314 329 330 314 330 330 330 330 330 314 328 329 329 332 327 329 330 330 330 329 330 331 330 330 420 329 330 330 329 330 328 330 329 315 330 330 330 331 329 329 331 330 330 330 330 315 331 330 436 330 330 433 329 330 315 331 432 314 329 329 330 330 330 331 332 331 329 332 331 331 332 329 331 332 331 332 333 330 330 332 331 332 330 328 317 332 333 333 332 334 330 332 331 332 332 330 316 332 331 334 330 331 439 332 331 439 332 331 317 330 332 333 332 331 316 436 329 314 436 434 335 331 332 334 331 331 335 331 330 335 331 329 439 333 331 334 334 331 334 333 436 334 434 332 318 331 332 333 332 330 318 330 332 319 332 332 424 331 329 319 333 330 335 329 332 334 329 329 334 334 332 333 334 331 440 432 435 438 331 435 334 332 330 334 333 331 334 332 332 332 332 437 423 436 437 319 435 436 334 331 331 211 333 332 333 330 330 320 331 331 333 332 331 335 331 332 334 332 330 333 332 332 335 437 433 335 436 436 331 332 330 333 332 332 335 331 331 335 332 330 333 328 331 333 434 331 319 331 335 336 333 333 335 335 332 334 335 333 319 331 333 317 330 333
+
+Tree=0
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=45.4668
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.90895768047833925 -1.1986118472292238
+leaf_weight=9.6666669547557849 12.333333700895308
+leaf_count=29 37
+internal_value=-1.09861
+internal_weight=0
+internal_count=66
+shrinkage=1
+
+
+Tree=1
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=16.4462
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-1.1751848977304107 -1.0003931209284771
+leaf_weight=9.1096878647804278 13.158438026905058
+leaf_count=27 39
+internal_value=-1.07392
+internal_weight=0
+internal_count=66
+shrinkage=1
+
+
+Tree=2
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=14.9643
+threshold=4.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-1.2226951034069655 -1.0538663373118968
+leaf_weight=12.833437174558641 8.884687274694441
+leaf_count=39 27
+internal_value=-1.12393
+internal_weight=0
+internal_count=66
+shrinkage=1
+
+
+Tree=3
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=35.2265
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.1575364234238974 -0.095371113340115082
+leaf_weight=10.429489314556124 11.669646561145781
+leaf_count=29 37
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=4
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=13.592
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.096182427904905277 0.064439542658594487
+leaf_weight=8.6144952178001422 13.563094258308409
+leaf_count=27 39
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=5
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=12.9618
+threshold=4.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.09459896056895388 0.063093541799997918
+leaf_weight=12.166148751974108 9.1196536123752576
+leaf_count=39 27
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=6
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=13.8446
+threshold=4.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.072799550417212602 -0.091128343025523625
+leaf_weight=9.5564187467098254 11.178315728902815
+leaf_count=27 38
+internal_value=0
+internal_weight=0
+internal_count=65
+shrinkage=0.1
+
+
+Tree=7
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=7.78536
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.062760987061114049 -0.055811720181622851
+leaf_weight=11.018249481916429 11.132086545228956
+leaf_count=31 34
+internal_value=0
+internal_weight=0
+internal_count=65
+shrinkage=0.1
+
+
+Tree=8
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=26.9199
+threshold=4.4500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.093411906163932634 0.13450995140988672
+leaf_weight=11.191169798374178 9.6508225202560407
+leaf_count=37 28
+internal_value=0
+internal_weight=0
+internal_count=65
+shrinkage=0.1
+
+
+Tree=9
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=11.6059
+threshold=4.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.063875274738339566 -0.088111985765375211
+leaf_weight=9.6736007332801837 10.453240156173704
+leaf_count=27 38
+internal_value=0
+internal_weight=0
+internal_count=65
+shrinkage=0.1
+
+
+Tree=10
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=6.58758
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.057427877047153512 -0.052063112275087448
+leaf_weight=11.152083724737169 10.832616627216337
+leaf_count=31 34
+internal_value=0
+internal_weight=0
+internal_count=65
+shrinkage=0.1
+
+
+Tree=11
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=20.1426
+threshold=1.4500000000000002
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.082016087665414392 0.1158736594908852
+leaf_weight=10.945514827966692 9.7036664485931379
+leaf_count=38 27
+internal_value=0
+internal_weight=0
+internal_count=65
+shrinkage=0.1
+
+
+Tree=12
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=17.6214
+threshold=1.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.09518793387173291 -0.087092681585952778
+leaf_weight=9.1550185978412646 12.606050223112105
+leaf_count=25 48
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=13
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=7.22738
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.049512939740825677 -0.061988597083801361
+leaf_weight=14.758615434169771 9.5910538434982282
+leaf_count=45 28
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=14
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=26.8227
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.086914600353478963 0.13184431076712116
+leaf_weight=13.50011268258095 9.5840147733688337
+leaf_count=47 26
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=15
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=21.2076
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.12128114531909051 -0.086755994225842681
+leaf_weight=7.7863313555717495 13.219707086682318
+leaf_count=21 52
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=16
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=6.29196
+threshold=3.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.045194994644660452 -0.060335623046467529
+leaf_weight=15.110323995351793 9.0237065255641919
+leaf_count=43 30
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=17
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=22.289
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.084304128661125327 0.11678597665497892
+leaf_weight=12.717013671994211 9.7288246452808362
+leaf_count=47 26
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=18
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=18.5855
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.1107822255229986 -0.086195773515654411
+leaf_weight=7.9025669395923641 12.161700502038
+leaf_count=22 50
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=19
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=4.99882
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.06520165497644069 -0.029452287066991979
+leaf_weight=9.4340337812900561 13.655446469783781
+leaf_count=26 46
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=20
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=21.3672
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.078907778168046117 0.12944514849676331
+leaf_weight=13.316993445158007 7.8079951107501975
+leaf_count=51 21
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=21
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=16.2296
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.1043752568066697 -0.084356516222587052
+leaf_weight=7.6042793393135097 11.36765682697296
+leaf_count=22 50
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=22
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.61201
+threshold=4.6500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.040371945180217091 -0.042010456333910214
+leaf_weight=13.965076774358751 8.5991475284099561
+leaf_count=45 27
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=23
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=18.5901
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.076646077056623296 0.12059591092328002
+leaf_weight=12.5989216119051 7.6980393528938285
+leaf_count=51 21
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=24
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=15.0042
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.10346518553517288 -0.077230532358405088
+leaf_weight=8.1342782378196734 10.562317579984663
+leaf_count=24 49
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=25
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=2.49098
+threshold=3.1500000000000008
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.020214714757975392 -0.049943458268964458
+leaf_weight=14.842867866158487 7.6788448095321646
+leaf_count=44 29
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=26
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=13.6889
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.065959177316394377 0.10452914474225534
+leaf_weight=11.652887389063837 7.9039911925792685
+leaf_count=51 22
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=27
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=13.2041
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.098491277563834467 -0.075685989895971501
+leaf_weight=7.7423606812953976 9.9402925521135312
+leaf_count=24 49
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=28
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=1.51174
+threshold=3.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.019075379932947799 -0.034334671841466873
+leaf_weight=12.915994912385942 8.9867165535688383
+leaf_count=38 35
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=29
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=9.25484
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.055645587902286686 0.087001556617126982
+leaf_weight=11.107888236641886 7.7018082439899436
+leaf_count=51 22
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=30
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=10.6771
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.085864431818560794 -0.079302130054353201
+leaf_weight=7.9986788034439087 7.6640345528721809
+leaf_count=26 43
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=31
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.725699
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.020636161618050847 -0.019635055600187825
+leaf_weight=6.830290466547015 12.974822938442228
+leaf_count=20 49
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=32
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=11.794
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.084497719747692934 0.08135443569311418
+leaf_weight=8.2188632339239138 8.9639596045017225
+leaf_count=43 26
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=33
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=8.57365
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.089603094029895761 -0.063953980279290015
+leaf_weight=6.5252330601215371 8.2118729427456838
+leaf_count=23 46
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=34
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=3.67124
+threshold=1.5500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.027984021078899829 -0.063337306574347593
+leaf_weight=12.38656832277775 6.8293255716562262
+leaf_count=45 24
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=35
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=10.4624
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.083726738978867565 0.076349422309882217
+leaf_weight=7.658836334943774 8.744996249675749
+leaf_count=43 26
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=36
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=9.42531
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.08865642823591019 -0.072152941974104087
+leaf_weight=7.3932210505008698 7.1888085380196571
+leaf_count=27 41
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=37
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=4.08158
+threshold=5.4500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.057803709890867187 0.042480617087954864
+leaf_weight=6.119099065661433 12.051676109433172
+leaf_count=28 40
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=38
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=6.54894
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.081310974151003801 0.056585554558207421
+leaf_weight=7.8840679302811623 6.1153830587863922
+leaf_count=49 19
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=39
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=8.31504
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.085657139505099886 -0.07089559338185196
+leaf_weight=6.8272015154361725 6.7440262883901596
+leaf_count=27 41
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=40
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=1.46269
+threshold=5.5500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.027067532881312435 0.031981294250735287
+leaf_weight=6.9570954889059093 10.566028669476507
+leaf_count=32 36
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=41
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=4.93514
+threshold=1.5500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.071282182197346736 0.051940239053922747
+leaf_weight=7.6953463479876518 5.6268590688705444
+leaf_count=50 18
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=42
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=6.42998
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.072134686776422055 -0.076995275218495696
+leaf_weight=5.5278821736574173 6.0615284889936447
+leaf_count=23 41
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=43
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.76781
+threshold=4.5500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.027115842481590602 -0.040907237037146715
+leaf_weight=10.389112547039987 6.0426482558250418
+leaf_count=42 22
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=44
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=7.58964
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.060771112274838904 0.097301735794111027
+leaf_weight=7.5712555795907974 5.0723569989204407
+leaf_count=47 17
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=45
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=6.1538
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.081955176555808071 -0.069631458536699317
+leaf_weight=4.6559640616178513 6.3041618838906288
+leaf_count=21 43
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=46
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.43059
+threshold=4.5500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.025013735420955027 -0.037439001334225806
+leaf_weight=10.09272290766239 5.761769726872445
+leaf_count=42 22
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=47
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=6.67227
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.05905553628423469 0.093513851079684088
+leaf_weight=7.1950202286243439 4.7645518779754639
+leaf_count=47 17
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=48
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=5.94245
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.080885033445350918 -0.07468143505563872
+leaf_weight=5.4863253086805344 4.4447473362088203
+leaf_count=26 38
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=49
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.446653
+threshold=5.5500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.034811688626490908 0.0009539568943098027
+leaf_weight=5.9641106575727472 8.4222974777221662
+leaf_count=31 33
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=50
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=4.141
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.059440039684878654 0.062999527626939597
+leaf_weight=5.0249976478517056 6.134186178445816
+leaf_count=42 22
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=51
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=5.3857
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.079288931040022811 -0.074294711493300955
+leaf_weight=5.0586815476417542 4.1615688391029835
+leaf_count=26 38
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=52
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.662195
+threshold=4.6500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0052512043094707916 -0.03960665149476171
+leaf_weight=8.390715539455412 5.4142129719257364
+leaf_count=41 23
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=53
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.68103
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.058147571555829919 0.059955347111050356
+leaf_weight=4.7590410895645618 5.9242302924394608
+leaf_count=42 22
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=54
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=5.60782
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.079073117805634793 -0.074277515322002677
+leaf_weight=4.5216135382652283 5.0456449389457703
+leaf_count=24 46
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=55
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=1.53874
+threshold=5.6500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.02325782088929397 0.040935184280562531
+leaf_weight=6.3171073645353326 9.1321813613176328
+leaf_count=33 37
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=56
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.61953
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.064779164733265115 0.047506613182509289
+leaf_weight=6.8578308634459972 4.9378192722797394
+leaf_count=50 20
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=57
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=4.44749
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.077197951281557708 -0.065216683782357218
+leaf_weight=3.9158238172531128 4.9836254194378853
+leaf_count=23 47
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=58
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=1.31219
+threshold=5.6500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.022400416599027261 0.037947729720749612
+leaf_weight=6.0242073386907586 8.9646741002798063
+leaf_count=33 37
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=59
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=3.33259
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.060333226675254162 0.050010324558101199
+leaf_weight=6.8162901774048805 4.5735844373703003
+leaf_count=51 19
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=60
+num_leaves=3
+num_cat=0
+split_feature=2 0
+split_gain=3.99211 0.00754073
+threshold=1.8 5.7500000000000009
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.076162503512286595 -0.064686764931610449 -0.072207716990568591
+leaf_weight=2.9335200041532516 2.5201739743351936 2.8904605805873871
+leaf_count=19 16 36
+internal_value=0 -0.0687056
+internal_weight=0 5.41063
+internal_count=71 52
+shrinkage=0.1
+
+
+Tree=61
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.5372
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.039939722315350236 -0.042922891023522806
+leaf_weight=9.4742171317338926 6.0579268485307702
+leaf_count=45 26
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=62
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=5.87534
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.063203038318711588 0.076523805332145978
+leaf_weight=6.4019072726368904 5.6787921041250229
+leaf_count=48 23
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=63
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.26655
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.057111253480491266 -0.072916483192441636
+leaf_weight=3.4253804385662079 4.4316237345337868
+leaf_count=21 50
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=64
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.0674
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.036973387611680335 -0.039618057558820169
+leaf_weight=9.1097032129764539 5.7478584498167047
+leaf_count=45 26
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=65
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=5.17798
+threshold=1.5500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.068706170620195531 0.066253907174752477
+leaf_weight=5.4558190032839775 5.9356722086668015
+leaf_count=46 25
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=66
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=4.61
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.075175144928789905 -0.075689759151801789
+leaf_weight=4.0053199082612991 4.0975863859057426
+leaf_count=28 47
+internal_value=0
+internal_weight=0
+internal_count=75
+shrinkage=0.1
+
+
+Tree=67
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.40416
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.028892939980890309 -0.055545679962294703
+leaf_weight=8.8178288042545301 5.4597583711147317
+leaf_count=50 25
+internal_value=0
+internal_weight=0
+internal_count=75
+shrinkage=0.1
+
+
+Tree=68
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=4.86438
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.075504382133758999 0.063736697239343915
+leaf_weight=4.308580307289958 6.0068144351243973
+leaf_count=50 25
+internal_value=0
+internal_weight=0
+internal_count=75
+shrinkage=0.1
+
+
+Tree=69
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.65918
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.073934674657216898 -0.065207190666351111
+leaf_weight=3.5494678765535355 4.0426878873258829
+leaf_count=27 48
+internal_value=0
+internal_weight=0
+internal_count=75
+shrinkage=0.1
+
+
+Tree=70
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.95085
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.026927169053081547 -0.051284704844960963
+leaf_weight=8.3981621265411359 5.1417016983032235
+leaf_count=50 25
+internal_value=0
+internal_weight=0
+internal_count=75
+shrinkage=0.1
+
+
+Tree=71
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=4.18721
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.074836213226991952 0.059141296919726562
+leaf_weight=3.9632477220147848 5.6699797809123993
+leaf_count=50 25
+internal_value=0
+internal_weight=0
+internal_count=75
+shrinkage=0.1
+
+
+Tree=72
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=2.70096
+threshold=5.4500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.066036869473806395 -0.064088112020043206
+leaf_weight=3.9629545211791992 2.6696992721408606
+leaf_count=28 42
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=73
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.38003
+threshold=1.2500000000000002
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.028589311982324409 0.0081794417820725551
+leaf_weight=4.6285576000809669 7.1580886617302895
+leaf_count=34 36
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=74
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.4066
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.035501089408089027 0.048072190347896809
+leaf_weight=5.0249228272587061 3.3608453869819641
+leaf_count=50 20
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=75
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.29739
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.075412738708175719 -0.071269623727709785
+leaf_weight=3.563565731048584 2.6889468096196651
+leaf_count=27 43
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=76
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.424043
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.011025802794815239 -0.027962011336609582
+leaf_weight=6.5993563160300255 4.8323041722178459
+leaf_count=44 26
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=77
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=4.65097
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.068644144765707099 0.083350492684018562
+leaf_weight=4.5780136864632368 3.5934229046106339
+leaf_count=50 20
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=78
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.81504
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.045934922770141946 -0.071298781597696634
+leaf_weight=2.3720369637012482 2.9793423395603895
+leaf_count=18 45
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=79
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.669744
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.029777637940691295 -0.02060127995771549
+leaf_weight=6.6587373092770576 4.3709452524781227
+leaf_count=40 23
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=80
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=2.66082
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.051732817750566422 0.064220539995934953
+leaf_weight=4.4872879795730114 3.5404529124498367
+leaf_count=44 19
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=81
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.68614
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.073707917598012859 -0.075644365530692551
+leaf_weight=1.9665533751249311 3.1063821092247963
+leaf_count=17 46
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=82
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.545318
+threshold=1.4500000000000002
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.032050973664673146 -0.013270795832171901
+leaf_weight=5.2634404301643372 5.3564877808094025
+leaf_count=36 27
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=83
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.76848
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.051877935135506349 0.044280225031299081
+leaf_weight=3.6139415744692087 4.0627627596259117
+leaf_count=42 21
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=84
+num_leaves=3
+num_cat=0
+split_feature=3 2
+split_gain=3.20553 0.00835685
+threshold=0.45000000000000007 4.2500000000000009
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.074398637631061082 -0.080421611991790279 -0.069687145036900697
+leaf_weight=2.8212125450372696 1.4313545301556589 1.4994763880968092
+leaf_count=24 13 39
+internal_value=0 -0.0749315
+internal_weight=0 2.93083
+internal_count=76 52
+shrinkage=0.1
+
+
+Tree=85
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.241825
+threshold=1.4500000000000002
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.011735390428119797 -0.017870088632068092
+leaf_weight=6.3943750038743019 4.852972500026226
+leaf_count=45 31
+internal_value=0
+internal_weight=0
+internal_count=76
+shrinkage=0.1
+
+
+Tree=86
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.79728
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.044314976348345747 0.051955972523519828
+leaf_weight=3.9660088298842311 3.7946222499012947
+leaf_count=50 26
+internal_value=0
+internal_weight=0
+internal_count=76
+shrinkage=0.1
+
+
+Tree=87
+num_leaves=3
+num_cat=0
+split_feature=3 2
+split_gain=2.9728 0.00684271
+threshold=0.45000000000000007 4.2500000000000009
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.073902610827029022 -0.079588935268769923 -0.069526807786432041
+leaf_weight=2.6663090139627457 1.343096945434809 1.3932028198614714
+leaf_count=24 13 39
+internal_value=0 -0.0744677
+internal_weight=0 2.7363
+internal_count=76 52
+shrinkage=0.1
+
+
+Tree=88
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.191534
+threshold=1.4500000000000002
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.010886482350482757 -0.0160135892589785
+leaf_weight=6.1087302342057228 4.6706982478499413
+leaf_count=45 31
+internal_value=0
+internal_weight=0
+internal_count=76
+shrinkage=0.1
+
+
+Tree=89
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.97153
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.065965559435463145 0.080658091972018287
+leaf_weight=3.9841229002922773 3.4444877207279205
+leaf_count=51 25
+internal_value=0
+internal_weight=0
+internal_count=76
+shrinkage=0.1
+
+
+Tree=90
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.35514
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.072875007378681037 -0.061868238673684878
+leaf_weight=2.3678672164678574 2.8687902810052037
+leaf_count=24 49
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=91
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.497816
+threshold=1.2500000000000002
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.011340623891768735 0.034412014286051638
+leaf_weight=3.8099040761590004 6.3275422528386116
+leaf_count=34 39
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=92
+num_leaves=3
+num_cat=0
+split_feature=3 1
+split_gain=2.44466 0.0252425
+threshold=1.6500000000000001 2.9500000000000006
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=-0.068777479243641873 0.044587839459147516 -0.085063173716356022
+leaf_weight=1.7867478262633087 2.8654216900467873 2.051153501495719
+leaf_count=19 20 34
+internal_value=0 -0.0774827
+internal_weight=0 3.8379
+internal_count=73 53
+shrinkage=0.1
+
+
+Tree=93
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.14526
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.072360513012997729 -0.06062056917766323
+leaf_weight=2.1899449154734612 2.7196383867412806
+leaf_count=24 49
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=94
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.8032
+threshold=5.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.012903258147934938 0.044466918801809002
+leaf_weight=4.8647986724972725 4.8964805826544762
+leaf_count=43 30
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=95
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=2.2459
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.075030289936329098 0.043864737450774884
+leaf_weight=3.6312969950959086 2.8245489671826363
+leaf_count=53 20
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=96
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.8644
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.072066600411106532 -0.058560862731506874
+leaf_weight=2.1238235607743263 2.2503124866634607
+leaf_count=25 48
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=97
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.06697
+threshold=3.6000000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.028980920359986912 0.045820495894520419
+leaf_weight=2.9017957746982574 5.5615958869457245
+leaf_count=30 43
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=98
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.39402
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.091856853881499043 0.010152116660400131
+leaf_weight=2.4217181755229831 2.9980495125055313
+leaf_count=49 24
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=99
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.68626
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.071546963516235046 -0.057368540061980805
+leaf_weight=1.9355120509862898 2.1326109105721116
+leaf_count=25 48
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=100
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.757223
+threshold=3.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.023085790260032078 0.040838518471387572
+leaf_weight=2.8471423089504242 5.3070147931575775
+leaf_count=31 42
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=101
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.63302
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.098752956164943478 0.014478982527632285
+leaf_weight=2.1504605934023857 3.1236322894692421
+leaf_count=49 24
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=102
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=1.1026
+threshold=3.1500000000000008
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.064368951003056757 0.05034252639327879
+leaf_weight=1.9654118455946448 1.4606197401881216
+leaf_count=40 26
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=103
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.991467
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.039919855522763725 -0.030217008488957538
+leaf_weight=5.1477000527083874 3.3123872950673103
+leaf_count=42 24
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=104
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.56073
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.066760544921405179 0.035140945797324463
+leaf_weight=2.6307949922047555 3.5061241835355759
+leaf_count=42 24
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=105
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.05076
+threshold=1.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.039712938367652356 -0.073637183286482319
+leaf_weight=1.7549585402011874 1.5314944237470625
+leaf_count=22 44
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=106
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.111279
+threshold=1.4500000000000002
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.024638190707312862 0.0010774886760303033
+leaf_weight=3.5740021988749504 4.5664504617452621
+leaf_count=37 29
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=107
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.30763
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.06333417507352393 0.032082345386511238
+leaf_weight=2.498907657340169 3.3775124177336693
+leaf_count=42 24
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=108
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.683989
+threshold=5.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.061603120123561395 -0.037310026153619162
+leaf_weight=1.579161658883095 1.2543923612684009
+leaf_count=19 42
+internal_value=0
+internal_weight=0
+internal_count=61
+shrinkage=0.1
+
+
+Tree=109
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.32406
+threshold=5.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.0079316947976369213 -0.05063470651513842
+leaf_weight=3.5592574700713158 3.5497987791895866
+leaf_count=37 24
+internal_value=0
+internal_weight=0
+internal_count=61
+shrinkage=0.1
+
+
+Tree=110
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=1.23058
+threshold=6.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.017142753726543659 0.080859911725780442
+leaf_weight=2.6235777400434017 2.5040876902639866
+leaf_count=41 20
+internal_value=0
+internal_weight=0
+internal_count=61
+shrinkage=0.1
+
+
+Tree=111
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.645479
+threshold=3.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.030882062586934468 0.066232584564749661
+leaf_weight=1.3951771911233666 1.3433434567414222
+leaf_count=38 23
+internal_value=0
+internal_weight=0
+internal_count=61
+shrinkage=0.1
+
+
+Tree=112
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.0305498
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.01960012985295706 -0.032947583030461559
+leaf_weight=3.3644005581736565 3.5040532574057579
+leaf_count=38 23
+internal_value=0
+internal_weight=0
+internal_count=61
+shrinkage=0.1
+
+
+Tree=113
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=1.11399
+threshold=6.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.017609038995961689 0.07742983915202227
+leaf_weight=2.6045358208939433 2.3425058536231518
+leaf_count=41 20
+internal_value=0
+internal_weight=0
+internal_count=61
+shrinkage=0.1
+
+
+Tree=114
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.62066
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.072386630711202812 -0.069166831423194894
+leaf_weight=1.8266315758228304 1.451541814021766
+leaf_count=24 48
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=115
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.991692
+threshold=1.5500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.015582002753372019 -0.057052551124403987
+leaf_weight=4.9852289035916328 3.0173926874995232
+leaf_count=47 25
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=116
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.612931
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.019631616495154533 0.046303115425776142
+leaf_weight=3.0292591922916472 2.637278325855732
+leaf_count=49 23
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=117
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.13407
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.071210068781301469 -0.050135873122097746
+leaf_weight=1.5400631874799731 1.5406026211567221
+leaf_count=23 49
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=118
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.8839
+threshold=1.5500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.015519052306588593 -0.054795757315958815
+leaf_weight=4.7973972521722317 2.8496523760259151
+leaf_count=47 25
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=119
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=2.899
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.056184627951239234 0.090844322355656856
+leaf_weight=3.0216219364665449 2.411135371774435
+leaf_count=49 23
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=120
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.11454
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.069208375394960817 -0.073464857560197577
+leaf_weight=0.86872252821922336 1.4808385903015731
+leaf_count=17 47
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=121
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.310451
+threshold=4.5500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0099969316481723428 0.056782808351657499
+leaf_weight=3.0702383704483509 2.6364894509315491
+leaf_count=37 27
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=122
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.619002
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.078474652392918898 0.0011986428252941173
+leaf_weight=1.7133784880861642 2.2628922462463379
+leaf_count=41 23
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=123
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.03674
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.069047711783528809 -0.073087480173878644
+leaf_weight=0.81745244562625918 1.3786074444651601
+leaf_count=17 47
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=124
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.291756
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0019130791312584117 0.048232628994634819
+leaf_weight=2.3710503466427326 3.1893469542264938
+leaf_count=22 42
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=125
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.0510723
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.039729249824767832 -0.016820186525110831
+leaf_weight=2.1029749216977511 1.8133723512291906
+leaf_count=43 21
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=126
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.698844
+threshold=3.1500000000000008
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.039035684377205219 0.06872770324005345
+leaf_weight=1.064521406311542 1.3842667061835525
+leaf_count=39 24
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=127
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.867828
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.006895748027530884 -0.068362967209823378
+leaf_weight=3.6665894240140915 2.6320198252797127
+leaf_count=41 22
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=128
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.00144
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.043016559129405142 0.091143689823020679
+leaf_weight=2.2696097609587014 2.1800351291894913
+leaf_count=43 20
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=129
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.637909
+threshold=3.1500000000000008
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.036994352843986854 0.067787997415231727
+leaf_weight=1.0384381962940099 1.3188714887946842
+leaf_count=39 24
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=130
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.614364
+threshold=5.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.011775579518971005 -0.052247219921150612
+leaf_weight=2.8014500364661217 3.2232124991714954
+leaf_count=37 26
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=131
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.7839
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.041192426367675762 0.088775154034192172
+leaf_weight=2.2461301863659173 1.9932540804147718
+leaf_count=43 20
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=132
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.07868
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.072072994369682841 -0.055800606646508488
+leaf_weight=1.2659744508564474 1.3774147366639224
+leaf_count=21 48
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=133
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.436984
+threshold=5.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.032717729596800381 0.018242349499019147
+leaf_weight=2.9070500507950783 3.9952227137982845
+leaf_count=35 34
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=134
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=1.84584
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.055022675810637134 -0.068838346537139772
+leaf_weight=2.7895436333492398 2.1156857234891504
+leaf_count=26 43
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=135
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.674796
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.069971318985673478 -0.037156316173876373
+leaf_weight=0.95009943842887912 1.5427342248149214
+leaf_count=20 49
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=136
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.324133
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.02373182702512637 0.01981531311450431
+leaf_weight=3.5395380742847919 3.3053760267794132
+leaf_count=26 43
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=137
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=1.56174
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.051266547839628668 -0.061799470086595309
+leaf_weight=2.7969385355245322 2.1690175195690244
+leaf_count=26 43
+internal_value=0
+internal_weight=0
+internal_count=69
+shrinkage=0.1
+
+
+Tree=138
+num_leaves=3
+num_cat=0
+split_feature=3 0
+split_gain=0.984445 0.00241046
+threshold=0.45000000000000007 5.5500000000000007
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.069905438713181833 -0.076770706564541699 -0.067937338424666802
+leaf_weight=0.78824528679251704 0.56499706022441365 0.7322752708569169
+leaf_count=17 8 47
+internal_value=0 -0.0717887
+internal_weight=0 1.29727
+internal_count=72 55
+shrinkage=0.1
+
+
+Tree=139
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.339167
+threshold=4.7500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.011526751799813259 -0.032289230251136371
+leaf_weight=3.0820881314575672 4.1388248354196548
+leaf_count=40 32
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=140
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=2.14716
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.033744725040044644 0.088969845558294167
+leaf_weight=3.0417905000504106 2.6838784664869308
+leaf_count=45 27
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=141
+num_leaves=3
+num_cat=0
+split_feature=3 1
+split_gain=0.918219 0.00157653
+threshold=0.45000000000000007 2.5500000000000003
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.069723651121849514 -0.075307522529121512 -0.067890659149456398
+leaf_weight=0.74583060480654251 0.5793077645357696 0.62531946995295584
+leaf_count=17 12 43
+internal_value=0 -0.071462
+internal_weight=0 1.20463
+internal_count=72 55
+shrinkage=0.1
+
+
+Tree=142
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.652187
+threshold=1.5500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.015266781229422542 -0.046608686766327997
+leaf_weight=3.8157859463244677 3.0771227777004242
+leaf_count=42 30
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=143
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.99575
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.033160846189589886 0.088091004269781253
+leaf_weight=2.9964792592218146 2.4816910400986671
+leaf_count=45 27
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=144
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.724678
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.071008963860245966 -0.041261938024364897
+leaf_weight=1.0113024301826956 1.3323499176185576
+leaf_count=23 48
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=145
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.526497
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.034978437601750421 0.0229936338496292
+leaf_weight=3.0827235616743565 3.1852895990014076
+leaf_count=21 50
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=146
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.779069
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.041468830001803562 0.043175679351609958
+leaf_weight=2.0216618963750079 2.3528806567192078
+leaf_count=51 20
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=147
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.927983
+threshold=1.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.058902412084490922 -0.071652949288837642
+leaf_weight=1.3776363562792542 0.90018595382571209
+leaf_count=28 43
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=148
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.475474
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.032921928977475083 0.022681562598753702
+leaf_weight=3.0438888147473335 3.1082394570112228
+leaf_count=21 50
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=149
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=1.72649
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.055915149536114372 -0.072886920526264026
+leaf_weight=2.5349790365435183 1.7654455422889439
+leaf_count=21 50
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=150
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.842211
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.071933690744431122 -0.05189647095389175
+leaf_weight=1.1649306230247023 1.0391943088034166
+leaf_count=27 43
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=151
+num_leaves=3
+num_cat=0
+split_feature=1 2
+split_gain=0.384002 0.0952568
+threshold=2.7500000000000004 4.6500000000000012
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.0046390366176452804 -0.029223230764486838 -0.062664746445951103
+leaf_weight=2.725202850997448 1.7286476008594038 1.6808918602764604
+leaf_count=17 36 17
+internal_value=0 -0.0457114
+internal_weight=0 3.40954
+internal_count=70 53
+shrinkage=0.1
+
+
+Tree=152
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=1.0521
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.011499391848963344 0.090679282016359927
+leaf_weight=2.7323615386849269 1.596458353102207
+leaf_count=53 17
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=153
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.772252
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0714865088810753 -0.050623061851942611
+leaf_weight=1.069181935861707 1.0044676961842922
+leaf_count=27 43
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=154
+num_leaves=3
+num_cat=0
+split_feature=1 0
+split_gain=0.33324 0.0809633
+threshold=2.7500000000000004 6.0500000000000007
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.0048363132317334485 -0.057599572006549138 -0.025766589974639431
+leaf_weight=2.6837143078446388 1.7297328896820547 1.4864185005426405
+leaf_count=17 33 20
+internal_value=0 -0.0428889
+internal_weight=0 3.21615
+internal_count=70 53
+shrinkage=0.1
+
+
+Tree=155
+num_leaves=3
+num_cat=0
+split_feature=1 1
+split_gain=0.205233 0.129095
+threshold=2.6500000000000008 2.9500000000000006
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.049927634151700068 -0.018943662709239383 0.026941009412832746
+leaf_weight=1.7414673201274125 1.1723238290287556 1.2854172146180642
+leaf_count=13 13 44
+internal_value=0 0.00505216
+internal_weight=0 2.45774
+internal_count=70 57
+shrinkage=0.1
+
+
+Tree=156
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.700225
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.069386954086922054 -0.071399563192235269
+leaf_weight=0.66620742157101631 0.75208847166504711
+leaf_count=21 42
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=157
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.336775
+threshold=1.5500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.025217714632317825 -0.02754900022256811
+leaf_weight=2.7654468435794115 2.1497909910976887
+leaf_count=39 24
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=158
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.904779
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.040681360290038875 -0.057725004014236837
+leaf_weight=2.2168332834262405 1.6149806461762635
+leaf_count=23 40
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=159
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.655585
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.069268170117460753 -0.07100470540054063
+leaf_weight=0.63758100010454655 0.69785855337977409
+leaf_count=21 42
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=160
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.293957
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.024730758322126609 -0.02496168276523562
+leaf_weight=2.6093173939734697 2.1891531720757484
+leaf_count=40 23
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=161
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.80474
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.038365212160509976 -0.055101264566707366
+leaf_weight=2.1765732469502841 1.5971134087885728
+leaf_count=23 40
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=162
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.621161
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.069275002163764463 -0.070199567924967704
+leaf_weight=0.54199015349149704 0.77714473172090948
+leaf_count=19 49
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=163
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.746634
+threshold=1.5500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.012291856453988835 0.093537360980358544
+leaf_weight=2.8279255256056786 1.8853529207408426
+leaf_count=42 26
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=164
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.32467
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.13071582616424007 0.028106261298863001
+leaf_weight=1.8747433609678412 1.8125933818519113
+leaf_count=46 22
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=165
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.579824
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.069126428463346282 -0.069961201751464794
+leaf_weight=0.51160649582743645 0.72365585772786289
+leaf_count=19 49
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=166
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.32045
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.081393227379552568 -0.027627858073228706
+leaf_weight=2.8732131347060204 1.8112573996186254
+leaf_count=46 22
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=167
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=2.09761
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.1208981230544902 0.029476721296731768
+leaf_weight=1.8482457813224757 1.8622436486184595
+leaf_count=46 22
+internal_value=0
+internal_weight=0
+internal_count=68
+shrinkage=0.1
+
+
+Tree=168
+num_leaves=3
+num_cat=0
+split_feature=0 3
+split_gain=0.38951 0.0814022
+threshold=5.1500000000000012 1.2500000000000002
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.073604284496529213 0.0086524044323282555 -0.067297346373000458
+leaf_weight=0.98692618031054735 0.27342920750379562 0.29138440638780594
+leaf_count=18 14 38
+internal_value=0 -0.0305201
+internal_weight=0 0.564814
+internal_count=70 52
+shrinkage=0.1
+
+
+Tree=169
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.446914
+threshold=5.6500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.069870620718930132 -0.0043906209667448556
+leaf_weight=1.667091032490134 2.7818717397749424
+leaf_count=29 41
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=170
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=2.29276
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.081319952093892311 0.094229875342260294
+leaf_weight=1.2438037855317818 1.8513015471398828
+leaf_count=49 21
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=171
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.376589
+threshold=5.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.072039827341215806 -0.034397362080961655
+leaf_weight=0.90156649146229029 0.52648348466027528
+leaf_count=19 51
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=172
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.386912
+threshold=5.6500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.066023757841036423 -0.0033503364245029647
+leaf_weight=1.5644005760550497 2.6602121870964766
+leaf_count=29 41
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=173
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=2.07798
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.078038954421228615 0.091768767964099829
+leaf_weight=1.2237056924495848 1.7529791817069051
+leaf_count=49 21
+internal_value=0
+internal_weight=0
+internal_count=70
+shrinkage=0.1
+
+
+Tree=174
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.525792
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068904730155351243 -0.067684394512214793
+leaf_weight=0.61223815847188234 0.52219871239503846
+leaf_count=26 50
+internal_value=0
+internal_weight=0
+internal_count=76
+shrinkage=0.1
+
+
+Tree=175
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.288963
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0058437078886482601 -0.043354585085484676
+leaf_weight=3.0964592266827822 1.9427596554160116
+leaf_count=52 24
+internal_value=0
+internal_weight=0
+internal_count=76
+shrinkage=0.1
+
+
+Tree=176
+num_leaves=3
+num_cat=0
+split_feature=1 2
+split_gain=0.680117 0.119276
+threshold=2.6500000000000008 4.8500000000000005
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.062347998127114383 -0.043664626692954324 0.00093588697068156662
+leaf_weight=1.7217816776828838 1.1281689525349068 1.2793559748679397
+leaf_count=16 39 21
+internal_value=0 -0.0199617
+internal_weight=0 2.40752
+internal_count=76 60
+shrinkage=0.1
+
+
+Tree=177
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.490793
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.06877050851288273 -0.067610329609405967
+leaf_weight=0.57644140347838402 0.48661727725993842
+leaf_count=26 50
+internal_value=0
+internal_weight=0
+internal_count=76
+shrinkage=0.1
+
+
+Tree=178
+num_leaves=3
+num_cat=0
+split_feature=1 3
+split_gain=0.299239 0.123251
+threshold=2.6500000000000008 1.6500000000000001
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=-0.04193211495583208 0.028318993160860714 -0.012268646428616296
+leaf_weight=1.9571586325764654 1.5209136288613083 1.4723557792603967
+leaf_count=16 38 22
+internal_value=0 0.00835257
+internal_weight=0 2.99327
+internal_count=76 60
+shrinkage=0.1
+
+
+Tree=179
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.373388
+threshold=6.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.014054015923145723 0.046877692828755299
+leaf_weight=2.3269346169545315 1.7711465321481226
+leaf_count=51 25
+internal_value=0
+internal_weight=0
+internal_count=76
+shrinkage=0.1
+
+
+Tree=180
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.489924
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.07094001381252682 -0.052912831791347419
+leaf_weight=0.58687023166567087 0.70073529134970158
+leaf_count=27 47
+internal_value=0
+internal_weight=0
+internal_count=74
+shrinkage=0.1
+
+
+Tree=181
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.707529
+threshold=6.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.022489954040920686 0.056609568680690552
+leaf_weight=2.955897725187242 1.8314605765044687
+leaf_count=48 26
+internal_value=0
+internal_weight=0
+internal_count=74
+shrinkage=0.1
+
+
+Tree=182
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.980246
+threshold=6.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.029552392720423794 -0.076437106700109669
+leaf_weight=2.2616939345898577 1.4206889327615497
+leaf_count=53 21
+internal_value=0
+internal_weight=0
+internal_count=74
+shrinkage=0.1
+
+
+Tree=183
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.424431
+threshold=1.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.049370220501353153 -0.07194978637615447
+leaf_weight=0.74842830840498209 0.46910420572385192
+leaf_count=32 42
+internal_value=0
+internal_weight=0
+internal_count=74
+shrinkage=0.1
+
+
+Tree=184
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.578439
+threshold=5.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.037010588486190696 0.034803618918213798
+leaf_weight=1.8363333065062759 2.8815581519156694
+leaf_count=43 31
+internal_value=0
+internal_weight=0
+internal_count=74
+shrinkage=0.1
+
+
+Tree=185
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.777808
+threshold=6.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0269722882764321 -0.067433943166678181
+leaf_weight=2.2486678450659388 1.4262063242495058
+leaf_count=53 21
+internal_value=0
+internal_weight=0
+internal_count=74
+shrinkage=0.1
+
+
+Tree=186
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.24606
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.070961701859403953 -0.038076274876509726
+leaf_weight=0.41911660972982645 0.40878828387940302
+leaf_count=19 43
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=187
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.628238
+threshold=6.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.046689919957183607 0.032885726022589809
+leaf_weight=2.23034274764359 1.7869882863014934
+leaf_count=41 21
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=188
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.881837
+threshold=6.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.056693062566086666 -0.046613256338593756
+leaf_weight=1.8038204174663408 1.5247182380408046
+leaf_count=42 20
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=189
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.229304
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.070539609005453655 -0.037829633769042505
+leaf_weight=0.37833891995251179 0.40342873154440895
+leaf_count=19 43
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=190
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.254042
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.035813917792881123 0.014635929144408439
+leaf_weight=1.9421204905956986 2.0533195678144693
+leaf_count=21 41
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=191
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.694511
+threshold=6.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.050638578739190136 -0.040672873751152319
+leaf_weight=1.7998407828563361 1.5505419122055171
+leaf_count=42 20
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=192
+num_leaves=3
+num_cat=0
+split_feature=2 3
+split_gain=0.518972 0.0352334
+threshold=1.8 1.0500000000000003
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.070889210257595064 -0.027690411310905268 -0.072001032164667342
+leaf_weight=0.61472009960561991 0.30893938429653645 0.42981650878209621
+leaf_count=29 8 48
+internal_value=0 -0.0534782
+internal_weight=0 0.738756
+internal_count=85 56
+shrinkage=0.1
+
+
+Tree=193
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.468416
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.010768364407720193 0.048126578761454097
+leaf_weight=3.6416314486414194 2.146315242163837
+leaf_count=35 50
+internal_value=0
+internal_weight=0
+internal_count=85
+shrinkage=0.1
+
+
+Tree=194
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=1.47082
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.023545015295591557 -0.097496321267619174
+leaf_weight=3.18011903896695 1.4669890959921756
+leaf_count=35 50
+internal_value=0
+internal_weight=0
+internal_count=85
+shrinkage=0.1
+
+
+Tree=195
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.487745
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.070798910190111822 -0.051542389101280284
+leaf_weight=0.59851671755313873 0.71534637801232748
+leaf_count=29 56
+internal_value=0
+internal_weight=0
+internal_count=85
+shrinkage=0.1
+
+
+Tree=196
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.334569
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.0092103965965930363 0.040187809561585817
+leaf_weight=3.6040117405354977 2.2128520105034113
+leaf_count=35 50
+internal_value=0
+internal_weight=0
+internal_count=85
+shrinkage=0.1
+
+
+Tree=197
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=1.13792
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.021339854688673082 -0.08344779637580646
+leaf_weight=3.1600516075850464 1.5419701414648441
+leaf_count=35 50
+internal_value=0
+internal_weight=0
+internal_count=85
+shrinkage=0.1
+
+
+Tree=198
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.284171
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068661383383616645 -0.067428062665249464
+leaf_weight=0.33708681352436543 0.28161881136475131
+leaf_count=23 41
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=199
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.95784
+threshold=5.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.14694057773087543 -0.084811993121698709
+leaf_weight=1.8483931282535198 1.225423492491245
+leaf_count=49 15
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=200
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.703106
+threshold=6.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.11655378927397171 -0.011526516147105962
+leaf_weight=1.3551121673226592 1.2037329021841285
+leaf_count=43 21
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=201
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.203998
+threshold=0.35000000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068980470292875629 -0.048205276896639011
+leaf_weight=0.32172951567918062 0.2759358502808027
+leaf_count=20 44
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=202
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=3.45552
+threshold=5.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.13476371107972981 -0.084556935965297661
+leaf_weight=1.8262339672073724 1.184179365634918
+leaf_count=49 15
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=203
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=4.96476
+threshold=5.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.19694526392250347 0.084803872932798827
+leaf_weight=1.3039008412015394 1.201904162764549
+leaf_count=49 15
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=204
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.203053
+threshold=3.4500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.018852510586405535 0.073394018661862251
+leaf_weight=0.53493613621685654 0.43068997119553387
+leaf_count=48 14
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=205
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.860489
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.0084260099159080559 -0.099865717743974847
+leaf_weight=2.2405177773907781 1.9036923311650751
+leaf_count=42 20
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=206
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.856284
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.0035800535397096643 0.10013274439435982
+leaf_weight=1.3593136991403301 1.9208933413028715
+leaf_count=42 20
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=207
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.189295
+threshold=3.4500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.018027584050697845 0.072850637244735283
+leaf_weight=0.53158502723090351 0.4028491546632722
+leaf_count=48 14
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=208
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.542285
+threshold=5.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.0082899512025532002 -0.082480769992001282
+leaf_weight=1.9243010003119709 2.0191703252494335
+leaf_count=37 25
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=209
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.62323
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0086337534332216765 0.098229080990066386
+leaf_weight=1.5907595680910165 1.5168239865452049
+leaf_count=43 19
+internal_value=0
+internal_weight=0
+internal_count=62
+shrinkage=0.1
+
+
+Tree=210
+num_leaves=3
+num_cat=0
+split_feature=1 2
+split_gain=0.339365 0.0584315
+threshold=3.2500000000000004 3.1500000000000004
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=-7.3975781047899421e-05 0.073056210503758739 -0.067258180658910496
+leaf_weight=0.2685677744448185 0.73792584438342601 0.2502073684881907
+leaf_count=10 23 47
+internal_value=0 -0.0324877
+internal_weight=0 0.518775
+internal_count=80 57
+shrinkage=0.1
+
+
+Tree=211
+num_leaves=3
+num_cat=0
+split_feature=3 2
+split_gain=1.1538 0.0118391
+threshold=1.5500000000000003 3.6000000000000005
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=-0.03537861591009224 0.077078726502932723 -0.021126919100270924
+leaf_weight=1.1632994338870051 1.8753248332068322 1.174342951737344
+leaf_count=32 26 22
+internal_value=0 -0.0282214
+internal_weight=0 2.33764
+internal_count=80 54
+shrinkage=0.1
+
+
+Tree=212
+num_leaves=3
+num_cat=0
+split_feature=3 1
+split_gain=0.682272 0.187067
+threshold=1.5500000000000003 2.5500000000000003
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=0.064775020636496497 -0.074630995056283053 -0.015321238607683169
+leaf_weight=0.55145444086520023 1.9009463964030144 0.61860770954808686
+leaf_count=9 26 45
+internal_value=0 0.0224238
+internal_weight=0 1.17006
+internal_count=80 54
+shrinkage=0.1
+
+
+Tree=213
+num_leaves=3
+num_cat=0
+split_feature=1 2
+split_gain=0.321137 0.0532686
+threshold=3.2500000000000004 3.1500000000000004
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=-0.00234158827708594 0.072147315338140908 -0.06723483401664046
+leaf_weight=0.26738498546183109 0.67641222267411649 0.24037211851100437
+leaf_count=10 23 47
+internal_value=0 -0.0330727
+internal_weight=0 0.507757
+internal_count=80 57
+shrinkage=0.1
+
+
+Tree=214
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.254085
+threshold=5.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.01829052692069209 0.032774062905530331
+leaf_weight=1.4741150392219422 2.8738681888207793
+leaf_count=44 36
+internal_value=0
+internal_weight=0
+internal_count=80
+shrinkage=0.1
+
+
+Tree=215
+num_leaves=3
+num_cat=0
+split_feature=3 1
+split_gain=0.454427 0.157426
+threshold=1.5500000000000003 2.5500000000000003
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=0.057307603213370875 -0.058329427654515847 -0.015653922075660989
+leaf_weight=0.56585146015277155 2.0909172594547272 0.61930458949063905
+leaf_count=9 26 45
+internal_value=0 0.0191769
+internal_weight=0 1.18516
+internal_count=80 54
+shrinkage=0.1
+
+
+Tree=216
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.269285
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.070427076262749508 0.048357936376027005
+leaf_weight=0.29184125881874934 0.55145157821243629
+leaf_count=22 50
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=217
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.751699
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.070171457294695275 0.0070491239346716639
+leaf_weight=2.7134894821792841 2.354146652854979
+leaf_count=22 50
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=218
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.13148
+threshold=6.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.051762878746212396 0.015528331115734191
+leaf_weight=2.7687137374086888 1.5696371234953401
+leaf_count=50 22
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=219
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.258766
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.070438719665874852 0.046887963169621717
+leaf_weight=0.28894807581673376 0.53792244460782968
+leaf_count=22 50
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=220
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.677944
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.064775442093963312 0.0090916785443528481
+leaf_weight=2.6581910718232393 2.3327347710728645
+leaf_count=22 50
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=221
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.105265
+threshold=6.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.045911932469475086 0.013240447508573304
+leaf_weight=2.7373210097939591 1.5423579961061475
+leaf_count=50 22
+internal_value=0
+internal_weight=0
+internal_count=72
+shrinkage=0.1
+
+
+Tree=222
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.299464
+threshold=3.2500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.041417318793262832 0.067444687819576604
+leaf_weight=0.44665465495199896 0.58179789618588984
+leaf_count=49 22
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=223
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.604071
+threshold=4.5500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.023788990546010455 0.056762844601425937
+leaf_weight=1.7859102934598925 1.9446091689169405
+leaf_count=45 26
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=224
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.635726
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.078473528286366834 0.016902779220473185
+leaf_weight=1.4249007265680123 1.3714019805192945
+leaf_count=52 19
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=225
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.2763
+threshold=3.2500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.040506488081192303 0.066180760744909056
+leaf_weight=0.44011559136561118 0.54122575337532908
+leaf_count=49 22
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=226
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.496616
+threshold=4.5500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.023411662527736896 0.050040423732223643
+leaf_weight=1.7196841104887428 1.9804706946015356
+leaf_count=45 26
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=227
+num_leaves=3
+num_cat=0
+split_feature=2 0
+split_gain=0.344632 0.148801
+threshold=4.9500000000000011 5.7500000000000009
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=0.040734021347239774 -0.062480466156819563 -0.024302086004070838
+leaf_weight=0.69016290324361784 1.4005225729197261 0.71748969051986933
+leaf_count=36 19 16
+internal_value=0 0.00758083
+internal_weight=0 1.40765
+internal_count=71 52
+shrinkage=0.1
+
+
+Tree=228
+num_leaves=3
+num_cat=0
+split_feature=2 2
+split_gain=0.241452 0.00017633
+threshold=1.8 3.6000000000000005
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.067095658566703534 -0.072230652348569943 -0.066960113888008169
+leaf_weight=0.2009192337282002 0.16704996395856142 0.1981451869069133
+leaf_count=24 3 51
+internal_value=0 -0.0693859
+internal_weight=0 0.365195
+internal_count=78 54
+shrinkage=0.1
+
+
+Tree=229
+num_leaves=3
+num_cat=0
+split_feature=1 0
+split_gain=0.513852 0.0889161
+threshold=2.8500000000000001 6.3500000000000005
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=-0.050475843713313477 -0.0057248428097401802 0.032976248594045382
+leaf_weight=2.7557123396545649 1.2280923435464504 1.1487944107502697
+leaf_count=24 35 19
+internal_value=0 0.0129778
+internal_weight=0 2.37689
+internal_count=78 54
+shrinkage=0.1
+
+
+Tree=230
+num_leaves=3
+num_cat=0
+split_feature=1 0
+split_gain=0.727251 0.0566035
+threshold=2.8500000000000001 6.5500000000000007
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.061809029265868891 -0.0011434783989561525 -0.033751203634963721
+leaf_weight=2.5428345892578363 1.0684357247009759 1.0617202902212737
+leaf_count=24 38 16
+internal_value=0 -0.0173985
+internal_weight=0 2.13016
+internal_count=78 54
+shrinkage=0.1
+
+
+Tree=231
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.227089
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.067061721878168876 -0.069357292783254698
+leaf_weight=0.18699955381453037 0.35108115212642588
+leaf_count=24 54
+internal_value=0
+internal_weight=0
+internal_count=78
+shrinkage=0.1
+
+
+Tree=232
+num_leaves=3
+num_cat=0
+split_feature=1 0
+split_gain=0.391887 0.0640418
+threshold=2.8500000000000001 6.3500000000000005
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=-0.04426294081670331 -0.0049316344187809256 0.027801417906015004
+leaf_weight=2.7252099011093378 1.2118626227602365 1.1789765851572154
+leaf_count=24 35 19
+internal_value=0 0.0112075
+internal_weight=0 2.39084
+internal_count=78 54
+shrinkage=0.1
+
+
+Tree=233
+num_leaves=3
+num_cat=0
+split_feature=1 0
+split_gain=0.568914 0.0399089
+threshold=2.8500000000000001 6.5500000000000007
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.054868589279348082 -0.0013114581966066881 -0.028493604441385156
+leaf_weight=2.5187399946153164 1.0683763594643099 1.0933376457542179
+leaf_count=24 38 16
+internal_value=0 -0.015062
+internal_weight=0 2.16171
+internal_count=78 54
+shrinkage=0.1
+
+
+Tree=234
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.133243
+threshold=3.2500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.044677795551856053 0.060290237744064092
+leaf_weight=0.20864738957607187 0.28755097684916109
+leaf_count=41 17
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=235
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.391176
+threshold=2.7500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.052931609530653928 -0.015100251641131693
+leaf_weight=1.569623524323106 1.8310255934484301
+leaf_count=17 41
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=236
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.747836
+threshold=6.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.066187839001788637 0.034612495453025485
+leaf_weight=1.652542808056751 1.3269736235961316
+leaf_count=34 24
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=237
+num_leaves=1
+num_cat=0
+split_feature=
+split_gain=
+threshold=
+decision_type=
+left_child=
+right_child=
+leaf_value=0
+leaf_weight=
+leaf_count=
+internal_value=
+internal_weight=
+internal_count=
+shrinkage=1
+
+
+Tree=238
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.0248106
+threshold=5.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0059913808833934445 0.023256454979627601
+leaf_weight=1.7067441486287864 1.6266444688662884
+leaf_count=31 27
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=239
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.196763
+threshold=2.7500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.045059863756186314 0.0067239842632194763
+leaf_weight=1.4544619433581831 1.480503169885196
+leaf_count=17 41
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=240
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.100275
+threshold=3.3500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.022885509297471185 0.067635659967743067
+leaf_weight=0.24138614677940495 0.2480838397750631
+leaf_count=49 17
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=241
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.20406
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.05547378751027604 -0.073977105239747931
+leaf_weight=1.2056367839686575 1.7782827559858558
+leaf_count=42 24
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=242
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.1501
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.048703270934163982 0.085446199880552756
+leaf_weight=1.2322915802142236 1.3275315789505837
+leaf_count=45 21
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=243
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.0937606
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068843937015256415 -0.019316718140436256
+leaf_weight=0.24359801411628723 0.23884465306764469
+leaf_count=20 46
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=244
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.04396
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.052213013589805207 -0.071515110328661993
+leaf_weight=1.1655022916384044 1.6435546856373546
+leaf_count=42 24
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=245
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.01457
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.046626988201136366 0.083734927026139688
+leaf_weight=1.1922969278384701 1.1956929657608268
+leaf_count=45 21
+internal_value=0
+internal_weight=0
+internal_count=66
+shrinkage=0.1
+
+
+Tree=246
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.0740193
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.06879338923052479 -0.00601856459353803
+leaf_weight=0.24613451864570379 0.28557808029290754
+leaf_count=18 45
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=247
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.306109
+threshold=6.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.013586561781352636 -0.041921102736088685
+leaf_weight=2.1945355464704335 1.8152085612528024
+leaf_count=41 22
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=248
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.385369
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.02158156065622745 0.044605827443266632
+leaf_weight=1.9183829679495832 1.6246173772960899
+leaf_count=47 16
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=249
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.0726828
+threshold=3.2500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.012511257292539827 0.062503420066911786
+leaf_weight=0.23883790198306087 0.28102145035518333
+leaf_count=47 16
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=250
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.280558
+threshold=6.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.013846044461776341 -0.03972064642342308
+leaf_weight=2.1788613367825751 1.7735918820835648
+leaf_count=41 22
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=251
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.423206
+threshold=6.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.027610833588095064 0.041971043967986829
+leaf_weight=1.7396026570422694 1.7568025663495062
+leaf_count=41 22
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=252
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.126759
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.053313588641751876 -0.052491721336872736
+leaf_weight=0.20992431836202741 0.24580948846414685
+leaf_count=15 49
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=253
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.177058
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.035694868395396991 0.011307234442244419
+leaf_weight=1.4102698985952886 1.8562850225716827
+leaf_count=40 24
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=254
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.997908
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.039412579309036466 0.079969629557692781
+leaf_weight=1.6643073163431839 1.20865554921329
+leaf_count=44 20
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=255
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.113751
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.050622871077459643 -0.05183153388435259
+leaf_weight=0.19720930838957429 0.24051715956011321
+leaf_count=15 49
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=256
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.188442
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.035600733469158811 0.013382674440550316
+leaf_weight=1.3942723989021035 1.7982142325490711
+leaf_count=40 24
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=257
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.934288
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.037996081311958328 0.079216444828125121
+leaf_weight=1.6616073456170855 1.1511479280889032
+leaf_count=44 20
+internal_value=0
+internal_weight=0
+internal_count=64
+shrinkage=0.1
+
+
+Tree=258
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.164873
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068808423921294881 -0.027734586712515413
+leaf_weight=0.30949899647384882 0.41277223586803302
+leaf_count=26 53
+internal_value=0
+internal_weight=0
+internal_count=79
+shrinkage=0.1
+
+
+Tree=259
+num_leaves=3
+num_cat=0
+split_feature=2 2
+split_gain=0.455713 0.276084
+threshold=4.8500000000000005 4.1500000000000012
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=0.0068134629854513856 0.037939745224161277 -0.071916370543798555
+leaf_weight=0.94203934259712718 2.1491892281919718 0.84470038907602429
+leaf_count=40 24 15
+internal_value=0 -0.0304039
+internal_weight=0 1.78674
+internal_count=79 55
+shrinkage=0.1
+
+
+Tree=260
+num_leaves=3
+num_cat=0
+split_feature=1 2
+split_gain=0.862127 1.00049
+threshold=2.6500000000000008 4.9500000000000011
+decision_type=2 2
+left_child=-1 -2
+right_child=1 -3
+leaf_value=0.043054809537946888 0.026318260163520669 -0.12672839048273299
+leaf_weight=1.5438534338027241 0.7601323474809758 0.97488070838153362
+leaf_count=16 45 18
+internal_value=0 -0.0596735
+internal_weight=0 1.73501
+internal_count=79 63
+shrinkage=0.1
+
+
+Tree=261
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.153763
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068683167808563469 -0.026223935242382486
+leaf_weight=0.29203534731641412 0.41080499906092882
+leaf_count=26 53
+internal_value=0
+internal_weight=0
+internal_count=79
+shrinkage=0.1
+
+
+Tree=262
+num_leaves=3
+num_cat=0
+split_feature=2 2
+split_gain=0.330238 0.278033
+threshold=4.8500000000000005 4.2500000000000009
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=0.009978048218925617 0.031002710524561168 -0.069260118124871969
+leaf_weight=0.96110756043344714 2.2677596649155021 0.82100344635546207
+leaf_count=42 24 13
+internal_value=0 -0.0265233
+internal_weight=0 1.78211
+internal_count=79 55
+shrinkage=0.1
+
+
+Tree=263
+num_leaves=3
+num_cat=0
+split_feature=2 0
+split_gain=0.284716 0.188595
+threshold=4.8500000000000005 5.1500000000000012
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=0.075533015136176079 -0.029931532940619662 -0.0060711303430788163
+leaf_weight=0.52238425319592374 2.2725958228111267 0.61831182913010707
+leaf_count=23 24 32
+internal_value=0 0.0312949
+internal_weight=0 1.1407
+internal_count=79 55
+shrinkage=0.1
+
+
+Tree=264
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.127865
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.06833016005175982 -0.0669870028023377
+leaf_weight=0.13405358023010194 0.14575358532601967
+leaf_count=16 47
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=265
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.919695
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.040504971677583823 -0.056655534721889382
+leaf_weight=1.7778893588110807 2.1551906932145357
+leaf_count=40 23
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=266
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.987149
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.04743014546037698 0.05721790822997358
+leaf_weight=1.5439739228677356 2.1658379770815372
+leaf_count=40 23
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=267
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.119995
+threshold=3.1500000000000004
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.06828217528937286 -0.066947958089145776
+leaf_weight=0.13041880773380399 0.13205878116423264
+leaf_count=16 47
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=268
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.722417
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.035884076508471821 -0.051606838294867265
+leaf_weight=1.7434874949976804 2.0574217829853296
+leaf_count=40 23
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=269
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.781077
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.042226851324209558 0.052150889902775402
+leaf_weight=1.5225369831041464 2.0678710844367743
+leaf_count=40 23
+internal_value=0
+internal_weight=0
+internal_count=63
+shrinkage=0.1
+
+
+Tree=270
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.138884
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068479597255084998 -0.032647960745646437
+leaf_weight=0.25949080451391637 0.28484190974268131
+leaf_count=24 47
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=271
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.948552
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.050748414244851915 0.050159523184644866
+leaf_weight=2.107377315871418 1.6695786325726656
+leaf_count=23 48
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=272
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=1.48578
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.059830961807583176 -0.077120394901618955
+leaf_weight=1.9599535873276184 1.3295502404507713
+leaf_count=23 48
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=273
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.132323
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068447905638456111 -0.030482247649902768
+leaf_weight=0.25366351660341024 0.28942192935210187
+leaf_count=24 47
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=274
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.698748
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.044314802065193781 0.041673225396979388
+leaf_weight=2.0851048305630688 1.7283501715864984
+leaf_count=23 48
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=275
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=1.32919
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.045837454717385602 0.084447359561395888
+leaf_weight=2.065428212161351 1.2612417531199751
+leaf_count=51 20
+internal_value=0
+internal_weight=0
+internal_count=71
+shrinkage=0.1
+
+
+Tree=276
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.212642
+threshold=3.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.05334077514251722 0.064566720307966605
+leaf_weight=0.25932202589319786 0.37283221195684746
+leaf_count=41 32
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=277
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=1.08622
+threshold=6.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.04065015035250738 -0.072510957143667384
+leaf_weight=2.170543889747933 1.392400399316102
+leaf_count=50 23
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=278
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=1.39188
+threshold=6.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.062925754403524034 0.074090611614587076
+leaf_weight=1.5931976057981958 1.3867397867143152
+leaf_count=50 23
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=279
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.192596
+threshold=3.1500000000000008
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.047581795824582579 0.06606865946879259
+leaf_weight=0.25816374597343383 0.35289891037973575
+leaf_count=47 26
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=280
+num_leaves=3
+num_cat=0
+split_feature=2 2
+split_gain=0.435468 0.16798
+threshold=4.8500000000000005 4.0500000000000007
+decision_type=2 2
+left_child=1 -1
+right_child=-2 -3
+leaf_value=0.0017039834642382961 -0.03644719226450463 0.066598257288318988
+leaf_weight=0.78016833402216457 1.8433900550007818 0.81654982268810272
+leaf_count=33 21 19
+internal_value=0 0.0348938
+internal_weight=0 1.59672
+internal_count=73 52
+shrinkage=0.1
+
+
+Tree=281
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=1.12844
+threshold=6.1500000000000012
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.056140649375862418 0.069874980403452774
+leaf_weight=1.5907346686235544 1.2843506457284091
+leaf_count=50 23
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=282
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.0648495
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.068653866712723402 -0.020399567887284597
+leaf_weight=0.1665244223549962 0.16053665049548727
+leaf_count=17 43
+internal_value=0
+internal_weight=0
+internal_count=60
+shrinkage=0.1
+
+
+Tree=283
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.954181
+threshold=4.9500000000000011
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.04517496182186348 0.080928658760837421
+leaf_weight=1.1684946392197164 1.2333381166681645
+leaf_count=40 20
+internal_value=0
+internal_weight=0
+internal_count=60
+shrinkage=0.1
+
+
+Tree=284
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.128976
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.049246062061023568 0.00034891951723563784
+leaf_weight=1.1275065999234359 0.97983866510912765
+leaf_count=41 19
+internal_value=0
+internal_weight=0
+internal_count=60
+shrinkage=0.1
+
+
+Tree=285
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.0490842
+threshold=0.45000000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.067842415334700243 -0.012515008030487341
+leaf_weight=0.13219701568596065 0.17865355912363157
+leaf_count=17 43
+internal_value=0
+internal_weight=0
+internal_count=60
+shrinkage=0.1
+
+
+Tree=286
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.00816025
+threshold=6.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.010619391889252337 0.022131325699921524
+leaf_weight=1.2363874115981164 1.2320029251277445
+leaf_count=34 26
+internal_value=0
+internal_weight=0
+internal_count=60
+shrinkage=0.1
+
+
+Tree=287
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.0982305
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.041159369289094284 0.0013221880831608432
+leaf_weight=1.1777781268028777 1.011559603270143
+leaf_count=41 19
+internal_value=0
+internal_weight=0
+internal_count=60
+shrinkage=0.1
+
+
+Tree=288
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.0471638
+threshold=3.1500000000000008
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.020281931711785734 0.056682947464554261
+leaf_weight=0.14709332538041053 0.17338868975639343
+leaf_count=39 19
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=289
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.152799
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.024079774263970802 -0.080004831965923284
+leaf_weight=0.98426599334925413 0.97073742630891502
+leaf_count=24 34
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=290
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.113037
+threshold=2.8500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.032329120646626172 0.08463204708009131
+leaf_weight=0.87780439527705312 0.78151358648574387
+leaf_count=21 37
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=291
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.044157
+threshold=3.0500000000000003
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.028244385591006838 0.049220358734681023
+leaf_weight=0.12555514336418128 0.17759593596565537
+leaf_count=33 25
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=292
+num_leaves=2
+num_cat=0
+split_feature=3
+split_gain=0.508685
+threshold=1.6500000000000001
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.0074220053961135046 -0.095851142846408263
+leaf_weight=0.91982696182094514 0.99039752082899213
+leaf_count=38 20
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=293
+num_leaves=2
+num_cat=0
+split_feature=1
+split_gain=0.100098
+threshold=2.9500000000000006
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.028203126933495193 0.077959774418013592
+leaf_weight=0.89085446312674321 0.74106060196845647
+leaf_count=24 34
+internal_value=0
+internal_weight=0
+internal_count=58
+shrinkage=0.1
+
+
+Tree=294
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.131171
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.069513606047214085 -0.042713126182503024
+leaf_weight=0.19161467242520303 0.22811815317254514
+leaf_count=25 48
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=295
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.429158
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.008647044364626771 0.060026243826035476
+leaf_weight=1.764764891122468 1.8785449797287581
+leaf_count=47 26
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=296
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.365675
+threshold=5.0500000000000007
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.058819923225647767 0.0091315825629073154
+leaf_weight=1.9271226902219498 1.3442370314151046
+leaf_count=51 22
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=297
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.121191
+threshold=1.8
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=0.06930658460960952 -0.04125518551985833
+leaf_weight=0.17821586143691093 0.22341351411159849
+leaf_count=25 48
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=298
+num_leaves=2
+num_cat=0
+split_feature=2
+split_gain=0.391454
+threshold=4.8500000000000005
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.01110726923188618 0.05445403560180119
+leaf_weight=1.7419129195623102 1.9083257950842378
+leaf_count=47 26
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+Tree=299
+num_leaves=2
+num_cat=0
+split_feature=0
+split_gain=0.0672514
+threshold=6.2500000000000009
+decision_type=2
+left_child=-1
+right_child=-2
+leaf_value=-0.014733291863889232 -0.043803189314048502
+leaf_weight=1.946156897744004 1.3473573103547094
+leaf_count=49 24
+internal_value=0
+internal_weight=0
+internal_count=73
+shrinkage=0.1
+
+
+end of trees
+
+feature_importances:
+Column_2=129
+Column_3=83
+Column_1=65
+Column_0=51
+
+parameters:
+[boosting: gbdt]
+[objective: multiclass]
+[metric: multi_logloss]
+[tree_learner: serial]
+[device_type: cpu]
+[data: ]
+[valid: ]
+[num_iterations: 100]
+[learning_rate: 0.1]
+[num_leaves: 11]
+[num_threads: 0]
+[deterministic: 0]
+[force_col_wise: 0]
+[force_row_wise: 0]
+[histogram_pool_size: -1]
+[max_depth: -1]
+[min_data_in_leaf: 26]
+[min_sum_hessian_in_leaf: 0.001]
+[bagging_fraction: 0.58856]
+[pos_bagging_fraction: 1]
+[neg_bagging_fraction: 1]
+[bagging_freq: 2]
+[bagging_seed: 400]
+[feature_fraction: 0.873125]
+[feature_fraction_bynode: 1]
+[feature_fraction_seed: 30056]
+[extra_trees: 0]
+[extra_seed: 12879]
+[early_stopping_round: 0]
+[first_metric_only: 0]
+[max_delta_step: 0]
+[lambda_l1: 5.43354e-05]
+[lambda_l2: 1.08779e-07]
+[min_gain_to_split: 0]
+[drop_rate: 0.1]
+[max_drop: 50]
+[skip_drop: 0.5]
+[xgboost_dart_mode: 0]
+[uniform_drop: 0]
+[drop_seed: 17869]
+[top_rate: 0.2]
+[other_rate: 0.1]
+[min_data_per_group: 100]
+[max_cat_threshold: 32]
+[cat_l2: 10]
+[cat_smooth: 10]
+[max_cat_to_onehot: 4]
+[top_k: 20]
+[monotone_constraints: ]
+[monotone_constraints_method: basic]
+[monotone_penalty: 0]
+[feature_contri: ]
+[forcedsplits_filename: ]
+[refit_decay_rate: 0.9]
+[cegb_tradeoff: 1]
+[cegb_penalty_split: 0]
+[cegb_penalty_feature_lazy: ]
+[cegb_penalty_feature_coupled: ]
+[path_smooth: 0]
+[interaction_constraints: ]
+[verbosity: 1]
+[saved_feature_importance_type: 0]
+[max_bin: 255]
+[max_bin_by_feature: ]
+[min_data_in_bin: 3]
+[bin_construct_sample_cnt: 200000]
+[data_random_seed: 175]
+[is_enable_sparse: 1]
+[enable_bundle: 1]
+[use_missing: 1]
+[zero_as_missing: 0]
+[feature_pre_filter: 1]
+[pre_partition: 0]
+[two_round: 0]
+[header: 0]
+[label_column: ]
+[weight_column: ]
+[group_column: ]
+[ignore_column: ]
+[categorical_feature: ]
+[forcedbins_filename: ]
+[objective_seed: 16083]
+[num_class: 3]
+[is_unbalance: 0]
+[scale_pos_weight: 1]
+[sigmoid: 1]
+[boost_from_average: 1]
+[reg_sqrt: 0]
+[alpha: 0.9]
+[fair_c: 1]
+[poisson_max_delta_step: 0.7]
+[tweedie_variance_power: 1.5]
+[lambdarank_truncation_level: 30]
+[lambdarank_norm: 1]
+[label_gain: ]
+[eval_at: ]
+[multi_error_top_k: 1]
+[auc_mu_weights: ]
+[num_machines: 1]
+[local_listen_port: 12400]
+[time_out: 120]
+[machine_list_filename: ]
+[machines: ]
+[gpu_platform_id: -1]
+[gpu_device_id: -1]
+[gpu_use_dp: 0]
+[num_gpu: 1]
+
+end of parameters
+
+pandas_categorical:null
