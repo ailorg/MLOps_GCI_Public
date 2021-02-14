@@ -28,6 +28,6 @@ class Inference():
 
 
 if __name__ == "__main__":
-    model = Inference("LR_model.pkl", "sample.db", "feature")
+    model = Inference("LR_model.pkl", "sample.db", "test_feature_1")
     y_pred = model.predict()
     print(y_pred[:5])
