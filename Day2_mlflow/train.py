@@ -12,11 +12,13 @@ import mlflow.lightgbm
 
 mpl.use("Agg")
 
-# def mlflow_callback(study, trial):
-#     loss = trial.value if trial.value is not None else float("nan")
-#     with mlflow.start_run(run_name=study.study_name):
-#         mlflow.log_params(trial.params)
-#         mlflow.log_metrics({"log_loss": loss})
+
+def mlflow_callback(study, trial):
+    loss = trial.value if trial.value is not None else float("nan")
+    with mlflow.start_run(run_name=study.study_name):
+        mlflow.log_params(trial.params)
+        mlflow.log_metrics({"log_loss": loss})
+
 
 def objective(trial):
     iris = datasets.load_iris()
@@ -47,14 +49,11 @@ def objective(trial):
 
 def main():
     # enable auto logging
-    print("#"*20)
+    print("#" * 20)
     mlflow.lightgbm.autolog()
-
-
 
     study = optuna.create_study(direction='minimize')
     study.optimize(objective, n_trials=100)#, callbacks=[mlflow_callback])
-
 
     print("Number of finished trials: {}".format(len(study.trials)))
 
@@ -70,6 +69,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
