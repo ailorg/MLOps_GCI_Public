@@ -3,7 +3,7 @@ import sqlite3
 import sys
 
 def execute_preprocessing():
-    file = "sample.db"
+    file = "../../sample.db"
     conn = sqlite3.connect(file)
     try:
         train_test = sys.argv[1]

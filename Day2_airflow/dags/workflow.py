@@ -3,14 +3,14 @@ import sys
 import pytz
 import datetime
 from datetime import datetime, timedelta
-from preprocessing import execute_preprocessing
-from train import  execute_train
-from inference import execute_inference
+from preprocess.preprocessing import execute_preprocessing
+from train.train import execute_train
+from inference.inference import execute_inference
 
 
 import airflow
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
+# from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 
 START_TIME = datetime.now(pytz.timezone('Asia/Tokyo')).strftime('%Y-%m-%d %H:%M:%S')
@@ -26,9 +26,9 @@ default_args = {
 
 dag = DAG(
     'ml_operation',
-    description='DAG for ML operation',
+    description='DAG_for_ML_operation',
     default_args=default_args,
-    schedule_interval=timedelta(days=1)
+    # schedule_interval=timedelta(days=1)
 )
 
 
@@ -45,8 +45,8 @@ train = PythonOperator(
 )
 
 inference = PythonOperator(
-    task_id='',
-    python_callable=execute_preprocessing,
+    task_id='inference',
+    python_callable=execute_inference,
     dag=dag
 )
 

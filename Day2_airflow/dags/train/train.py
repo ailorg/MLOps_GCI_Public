@@ -45,11 +45,11 @@ class Train():
 
 def execute_train():
     model = LogisticRegression(random_state=42)
-    result = Train(model, "sample.db", "train_feature_1")
+    result = Train(model, "../../sample.db", "train_feature_1")
     result.score()
     # print(result.predict())
 
-    pkl_file = "LR_model.pkl"
+    pkl_file = "../../LR_model.pkl"
     with open(pkl_file, 'wb') as f:
         pickle.dump(result.model, f)
 
