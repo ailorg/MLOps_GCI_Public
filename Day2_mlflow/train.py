@@ -1,23 +1,11 @@
-import argparse
 import numpy as np
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, log_loss
 import lightgbm as lgb
-import matplotlib as mpl
-
 import optuna
 import mlflow
 import mlflow.lightgbm
-
-mpl.use("Agg")
-
-
-def mlflow_callback(study, trial):
-    loss = trial.value if trial.value is not None else float("nan")
-    with mlflow.start_run(run_name=study.study_name):
-        mlflow.log_params(trial.params)
-        mlflow.log_metrics({"log_loss": loss})
 
 
 def objective(trial):
@@ -41,7 +29,6 @@ def objective(trial):
     gbm = lgb.train(param, train_set, valid_sets=test_set)
     y_proba = gbm.predict(X_test)
     y_pred = np.argmax(y_proba, axis=1)
-    # accuracy = accuracy_score(y_test, y_pred)
     loss = log_loss(y_test, y_proba)
 
     return loss
@@ -53,7 +40,7 @@ def main():
     mlflow.lightgbm.autolog()
 
     study = optuna.create_study(direction='minimize')
-    study.optimize(objective, n_trials=100)#, callbacks=[mlflow_callback])
+    study.optimize(objective, n_trials=100)
 
     print("Number of finished trials: {}".format(len(study.trials)))
 
