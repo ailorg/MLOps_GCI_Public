@@ -1,6 +1,7 @@
 import pickle
 import pandas as pd
 import sqlite3
+import os
 
 
 class Inference():
@@ -28,6 +29,9 @@ class Inference():
 
 
 def execute_inference():
-    model = Inference("../../LR_model.pkl", "sample.db", "test_feature_1")
+    base = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.normpath(os.path.join(base, '../../LR_model.pkl'))
+    data_path = os.path.normpath(os.path.join(base, '../../sample.db'))
+    model = Inference(model_path, data_path, "test_feature_1")
     y_pred = model.predict()
     print(y_pred[:5])

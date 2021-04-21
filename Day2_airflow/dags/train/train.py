@@ -5,6 +5,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 import warnings
+import os
 
 warnings.filterwarnings('ignore')
 
@@ -45,11 +46,15 @@ class Train():
 
 def execute_train():
     model = LogisticRegression(random_state=42)
-    result = Train(model, "../../sample.db", "train_feature_1")
+    base = os.path.dirname(os.path.abspath(__file__))
+    file = os.path.normpath(os.path.join(base, '../../sample.db'))
+
+    result = Train(model, file, "train_feature_1")
     result.score()
     # print(result.predict())
 
     pkl_file = "../../LR_model.pkl"
+    pkl_file = os.path.normpath(os.path.join(base, pkl_file))
     with open(pkl_file, 'wb') as f:
         pickle.dump(result.model, f)
 
