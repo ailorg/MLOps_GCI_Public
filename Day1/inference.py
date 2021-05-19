@@ -19,8 +19,8 @@ class Inference():
     def load_data(self, table_name):
         conn = sqlite3.connect(self.data_path)
         X = pd.read_sql_query("SELECT * FROM {}".format(table_name),
-                                   conn,
-                                   )
+                              conn,
+                              )
         return X
 
     def predict(self):
@@ -30,4 +30,5 @@ class Inference():
 if __name__ == "__main__":
     model = Inference("LR_model.pkl", "sample.db", "test_feature_1")
     y_pred = model.predict()
-    print(y_pred[:5])
+    print(f'model path: {model.model_path}')
+    print(f'y_pred[-5:]: {y_pred[-5:]}')
