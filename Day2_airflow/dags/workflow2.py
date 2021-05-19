@@ -2,8 +2,6 @@ from datetime import timedelta
 
 # The DAG object; we'll need this to instantiate a DAG
 from airflow import DAG
-
-# Operators; we need this to operate!
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
@@ -16,18 +14,18 @@ default_args = {
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
-    'retry_delay': timedelta(minutes=5)
+    'retry_delay': timedelta(minutes=5),
+    'start_date': days_ago(2),
 }
 dag = DAG(
-    'mlops2',
+    'GCI_tutorial_2',
     default_args=default_args,
     description='A flow of ML',
     schedule_interval=timedelta(days=1),
-    start_date=days_ago(2),
     tags=['example'],
 )
 
-# t1, t2 and t3 are examples of tasks created by instantiating operators
+
 t1 = BashOperator(
     task_id='Data_Extraction',
     bash_command='sleep 3',

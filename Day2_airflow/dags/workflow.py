@@ -13,7 +13,8 @@ from airflow import DAG
 # from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 
-START_TIME = datetime.now(pytz.timezone('Asia/Tokyo')).strftime('%Y-%m-%d %H:%M:%S')
+START_TIME = datetime.now(pytz.timezone('Asia/Tokyo')
+                          ).strftime('%Y-%m-%d %H:%M:%S')
 
 default_args = {
     'owner': 'airflow',
@@ -25,10 +26,10 @@ default_args = {
 }
 
 dag = DAG(
-    'ml_operation',
+    'GCI_tutorial_1',
     description='DAG_for_ML_operation',
     default_args=default_args,
-    # schedule_interval=timedelta(days=1)
+    schedule_interval=timedelta(days=1)
 )
 
 
