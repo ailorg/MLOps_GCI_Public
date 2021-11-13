@@ -22,4 +22,5 @@ expect -c "
     send -- \"airflow\n\"
 interact
 "
+sed -i -e "4c\dags_folder = /home/Day2_airflow/dags" ~/airflow/airflow.cfg
 exit
