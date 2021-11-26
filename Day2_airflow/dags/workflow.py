@@ -12,6 +12,7 @@ import airflow
 from airflow import DAG
 # from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
+from airflow.utils.dates import days_ago
 
 START_TIME = datetime.now(pytz.timezone('Asia/Tokyo')
                           ).strftime('%Y-%m-%d %H:%M:%S')
@@ -19,7 +20,7 @@ START_TIME = datetime.now(pytz.timezone('Asia/Tokyo')
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime.today(),
+    'start_date': days_ago(2),
     'email': None,
     'email_on_failure': False,
     'email_on_retry': False,
