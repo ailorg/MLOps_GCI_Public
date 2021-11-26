@@ -15,13 +15,13 @@ def objective(trial):
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42)
 
-    train_set = lgb.Dataset(X_train, label=y_train)
-    test_set = lgb.Dataset(X_test, label=y_test)
+    train_set = lgb.Dataset(X_train, label=y_train, params={'verbose': -1})
+    test_set = lgb.Dataset(X_test, label=y_test, params={'verbose': -1})
 
     param = dict(objective="multiclass", metric="multi_logloss", num_class=3,
                  lambda_l1=trial.suggest_loguniform("lambda_l1", 1e-8, 10.0),
                  lambda_l2=trial.suggest_loguniform("lambda_l2", 1e-8, 10.0),
-                 num_leaves=trial.suggest_int("num_leaves", 2, 256),
+                 num_leaves=trial.suggest_int("num_leaves", 2, 10),
                  feature_fraction=trial.suggest_uniform(
                      "feature_fraction", 0.4, 1.0),
                  bagging_fraction=trial.suggest_uniform(
